@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="icon" type="image/png" href="íconos/oso-de-peluche.png">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg r1">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex flex-row" href="https://youtu.be/4favhaXb4dI?si=aCgWcgtovJg6CBwg&t=832">
+                <img id="teto" src="img/teto_peluche.jpg" alt=""><h2 id="Título">Aniluches</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link active p2 fs-4" aria-current="page" href="inicio.html">
+                        <p class="p3">Inicio</p>
+                    </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link p2 fs-4" href="servicios.html">
+                        <p class="p3">Servicios</p>
+                    </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link p2 fs-4" href="contactos.html">
+                        <p class="p3">Contactos</p>
+                    </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-3">
+        <div class="row r4 gap-3">
+            <div class="col mx-2">
+                <h2>Contáctanos</h2>
+                <form class="c3 p-2">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Usuario</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Por favor ingresar texto para que el componente modal funcione correctamente.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Correo electrónico</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Échame un ojo</label>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Enviar</button>
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="staticBackdropLabel">¡Gracias por tu ayuda!</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                 Tu incalculable curiosidad hizo que yo funcione correctamente.
+                            </div>
+                            <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    <a href="contactos.html"><button type="button" class="btn btn-primary">Aceptar</button></a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <iframe class="col c4 mx-2 my-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.3434290460095!2d-77.00083522586283!3d-12.088625342679698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7cdfa748e8f%3A0x6fcfba2308cd9843!2sRembrandt%2C%20San%20Borja%2015037!5e0!3m2!1ses-419!2spe!4v1752432692983!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col">
+                <h3>Nuestro equipo</h3>
+                <table class="table table-bordered">
+                    <thead class="table-dark">
+                        <tr>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Área</th>
+                        <th scope="col">Correo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td>Ramses Gonzales</td>
+                        <td>Desarrollo</td>
+                        <td>ramsesgonzales2007@gmail.com</td>
+                        </tr>
+                        <tr>
+                        <td>Joaquín Gómez</td>
+                        <td>Marketing</td>
+                        <td>correo123@email.com</td>
+                        </tr>
+                        <tr>
+                        <td>Stephanie Salas</td>
+                        <td>Diseño</td>
+                        <td>mail987@email.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-secondary c1">
+        <div class="row">
+            <div class="col text-center">
+                <p class="p1 my-3">Copyright © Aniluches 2025</p>
+                <p class="p1">Todos los derechos reservados</p>
+                <a href="https://www.instagram.com/"><img class="img2" src="íconos/instagram.svg" alt=""></a><a href="https://x.com/home?lang=es"><img class="img2" src="íconos/twitter-x.svg" alt=""></a><a href="https://youtu.be/yCgHTmv4YU8?si=bfbPTbOgl4fEfMhx"><img class="img2" src="íconos/youtube.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <script>
+    const myModal = document.getElementById('myModal')
+    const myInput = document.getElementById('myInput')
+    myModal.addEventListener('shown.bs.modal', () => {
+    myInput.focus()
+    })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+.r1{
+    background-color: #ffc3c3;
+}
+.li1{
+    background-color: #bababa;
+    box-shadow: 6px 5px 7px 2px grey;
+}
+.img1{
+    padding-left: 10px;
+    max-width: 32px;
+    max-height: 46px;
+}
+@font-face {
+    font-family: 'OldeEnglish';
+    src: url(fuentes/OldeEnglish.ttf);
+    font-weight: medium;
+    font-style: medium;
+}
+@font-face {
+    font-family: 'Starborn';
+    src: url(fuentes/Starborn.otf);
+    font-weight: medium;
+    font-style: medium;
+}
+#Título{
+    font-family: 'Starborn';
+    font-weight: medium;
+}
+#teto{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.container-fluid{
+    margin: 0;
+}
+.card{
+    margin: auto;
+}
+.c1{
+    margin-top: 25px;
+}
+.img2{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 7px;
+}
+.p1{
+    height: 5px;
+}
+.r2{
+    box-shadow: 3px 3px 3px 3px grey;
+    width: 750px;
+    padding-top: 3px;
+}
+#subt{
+    font-family: 'Starborn';
+    font-weight: medium;
+}
+.r3{
+    width: 950px;
+}
+.img3{
+    height: 350px;
+    margin: 5px;
+}
+.c3{
+    background-color: lightblue;
+    border: 2px solid grey;
+}
+.c4{
+    border: 2px solid grey;
+}
+.p2{
+    font-family: 'OldeEnglish';
+    font-weight: medium;
+}
+.p3{
+    height: 22px;
+}
+iframe{
+    width: 500px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+@media (max-width:950px){
+    .r2{
+        width: auto;
+    }
+    .r3{
+        width: auto;
+    }
+}
+@media (max-width:550px){
+    iframe{
+        width: auto;
+    }
+}
